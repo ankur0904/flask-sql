@@ -1,0 +1,3 @@
+my name is kuldeep singh and i live in varansi. i like to eat ice creanm
+files inside the static directory is served as it is if the file format cant be opend on web page so it download it into your system like the pyenv.cfg file.
+if thr file is serveable like the some.txt then it shows all the content of the some.txt
