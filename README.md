@@ -18,10 +18,10 @@ This is a simple To-Do List web application that allows for all CRUD (Create, Re
 1. Clone the repository
 2. Install the necessary packages (mentioned in requirement.txt)
 3. On running it for the first time you might face an error regarding database for that:
-   1.Go to the path, where the app.py file is save
-   2.Open python terminal.
-   3.Then execute these three commands consecutively( 1. from app import app,  2. from app import db,  3. db.create_all() )
-5. Run the application:
+4. Go to the path, where the app.py file is save
+5. Open python terminal
+6. Then execute these three commands consecutively( 1. from app import app,  2. from app import db,  3. db.create_all() )
+7. Run the application
     
 
 ## Usage
