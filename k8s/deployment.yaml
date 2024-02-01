@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flask-todo-deployment
+  labels:
+    app: todo-flask-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: todo-flask-app
+  template:
+    metadata:
+      labels:
+        app: todo-flask-app
+    spec:
+      containers:
+      - name: todo-app
+        image: ankur136/blog-flask-todo:version1
+        ports:
+        - containerPort: 8000
